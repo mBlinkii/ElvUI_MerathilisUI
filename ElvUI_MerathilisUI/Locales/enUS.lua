@@ -116,6 +116,8 @@ L["Singing Sockets"] = true
 L["Adds a Singing sockets selection tool on the Socketing Frame."] = true
 L["Pet Filter Tab"] = true
 L["Adds a filter tab to the Pet Journal, which allows you to filter pets by their type."] = true
+L["Auction Enhanced"] = true
+L["Show the tertiary stats of equipments in auction house."] = true
 L["Fonts"] = true
 
 -- Nameplates
@@ -317,7 +319,12 @@ L["Bottom Left Extra Panel"] = true
 L["Bottom Right Panel"] = true
 L["Bottom Right Extra Panel"] = true
 
--- Filter
+-- LootSpecManager
+L["LootSpecManager"] = "Loot Spec Manager"
+L["LootSpecManagerTip"] = "Auto change your loot spec. Command: /lsm"
+L["LootSpecManagerTips"] = "|nBase on LootSpecManager, auto change your loot spec between bosses, support Raid and M+."
+L["LootSpecManagerRaidStart"] = "Boss pulled. Spec changed."
+L["LootSpecManagerM+Start"] = "M+ started, loot spec changed."
 
 -- Vehicle Bar
 L["VehicleBar"] = true
@@ -646,25 +653,6 @@ L["It will cause some buttons not work properly before UI reloading."] =
 	"It will cause some buttons not work properly before UI reloading."
 L["It will override your %s setting."] = "It will override your %s setting."
 L["Item Level Font"] = "Item Level Font"
-L["KEY_ALT"] = "KEY_ALT"
-L["KEY_CTRL"] = "KEY_CTRL"
-L["KEY_DELETE"] = "KEY_DELETE"
-L["KEY_HOME"] = "KEY_HOME"
-L["KEY_INSERT"] = "KEY_INSERT"
-L["KEY_META"] = "KEY_META"
-L["KEY_MOUSEBUTTON"] = "KEY_MOUSEBUTTON"
-L["KEY_MOUSEWHEELDOWN"] = "KEY_MOUSEWHEELDOWN"
-L["KEY_MOUSEWHEELUP"] = "KEY_MOUSEWHEELUP"
-L["KEY_NDIVIDE"] = "KEY_NDIVIDE"
-L["KEY_NEQUALS"] = "KEY_NEQUALS"
-L["KEY_NMINUS"] = "KEY_NMINUS"
-L["KEY_NMULTIPLY"] = "KEY_NMULTIPLY"
-L["KEY_NPLUS"] = "KEY_NPLUS"
-L["KEY_NUMPAD"] = "KEY_NUMPAD"
-L["KEY_PAGEDOWN"] = "KEY_PAGEDOWN"
-L["KEY_PAGEUP"] = "KEY_PAGEUP"
-L["KEY_SHIFT"] = "KEY_SHIFT"
-L["KEY_SPACE"] = "KEY_SPACE"
 L["Keep Current"] = "Keep Current"
 L["KeystoneLoot"] = "KeystoneLoot"
 L["LEFT"] = "LEFT"

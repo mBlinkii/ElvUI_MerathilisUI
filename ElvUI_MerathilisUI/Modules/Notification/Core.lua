@@ -222,20 +222,19 @@ end
 function module:DisplayToast(name, message, clickFunc, texture, ...)
 	local toast = self:CreateToast()
 
-	if type(clickFunc) == "function" then
-		toast.clickFunc = clickFunc
-	else
-		toast.clickFunc = nil
-	end
+	toast.clickFunc = type(clickFunc) == "function" and clickFunc or nil
 
-	if texture then
-		if GetAtlasInfo(texture) then
-			toast.icon:SetAtlas(texture)
+	local safeTexture = texture and not E:IsSecretValue(texture) and texture or nil
+
+	if safeTexture then
+		local ok, atlas = pcall(GetAtlasInfo, safeTexture)
+		if ok and atlas then
+			toast.icon:SetAtlas(safeTexture)
 		else
-			toast.icon:SetTexture(texture)
-
-			if ... then
-				toast.icon:SetTexCoord(...)
+			toast.icon:SetTexture(safeTexture)
+			local a, b, c, d = ...
+			if a and not E:IsSecretValue(a) then
+				toast.icon:SetTexCoord(a, b, c, d)
 			else
 				toast.icon:SetTexCoords()
 			end
@@ -248,7 +247,12 @@ function module:DisplayToast(name, message, clickFunc, texture, ...)
 	toast.title:SetText(name)
 	toast.text:SetText(message)
 
-	self:SpawnToast(toast)
+	local ok, err = pcall(function()
+		self:SpawnToast(toast)
+	end)
+	if not ok then
+		print(MER.Title .. "|cffff0000Toast-Fehler:|r", err)
+	end
 end
 
 function module:PLAYER_FLAGS_CHANGED(event)

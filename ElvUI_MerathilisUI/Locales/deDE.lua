@@ -129,6 +129,9 @@ L["Adds a Singing sockets selection tool on the Socketing Frame."] =
 L["Pet Filter Tab"] = "Haustier Filter Tab"
 L["Adds a filter tab to the Pet Journal, which allows you to filter pets by their type."] =
 	"Fügt dem Haustierführer einen Filter-Tab hinzu, mit dem Du Haustiere nach ihrem Typ filtern kannst."
+L["Auction Enhanced"] = "Erweitertes Auktionshaus"
+L["Show the tertiary stats of equipments in auction house."] =
+	"Zeigt die tertiären Werte von Ausrüstung im Auktionshaus an."
 
 L["Fonts"] = "Schriftarten"
 
@@ -428,6 +431,14 @@ L["Control the Lightness value of HSL for the Normal color."] = true
 L["Normal Saturation"] = true
 L["Control the Saturation value of HSL for the Normal color."] = true
 
+-- LootSpecManager
+L["LootSpecManager"] = "Loot Spec Manager"
+L["LootSpecManagerTip"] = "Wechsle automatisch deine Beute-Spezialisierung. Befehl: /lsm"
+L["LootSpecManagerTips"] =
+	"|nBasierend auf LootSpecManager: Wechselt automatisch deine Beutespezifikation zwischen den Bossen. Unterstützt Raids und M+."
+L["LootSpecManagerRaidStart"] = "Boss gepullt. Spezialisierung geändert."
+L["LootSpecManagerM+Start"] = "M+ gestartet, Beutespezialisierung geändert."
+
 --Vehicle Bar
 L["VehicleBar"] = "Fahrzeugleiste"
 L["Change the Vehicle Bar's Button width. The height will scale accordingly in a 4:3 aspect ratio."] =
@@ -517,43 +528,51 @@ L["Warning"] = "Warnung"
 L["[ABBR] Heroic"] = "H"
 L["[ABBR] Mythic"] = "M"
 L["[ABBR] Normal"] = "N"
-
--- Additional locale entries for consistency
-L["Add an extra item level text to some equipment buttons."] = true
-L["AddOnSkins"] = true
-L["AddOns"] = true
-L["Attribute Visibility"] = true
-L["Background Alpha"] = true
-L["Background Bars"] = true
-L["Background Color"] = true
-L["Bags Full"] = true
-L["Class Gradient"] = true
-L["Class Text Font"] = true
-L["Credits"] = true
-L["Custom Color"] = true
-L["Flyout Button"] = true
-L["Font Color"] = true
-L["Group Units"] = true
-L["Guild News"] = true
-L["Header Font"] = true
-L["Hide ElvUI Bars"] = true
-L["Hide In Combat"] = true
-L["Individual Units"] = true
-L["Info"] = true
-L["Label Font"] = true
-L["Level Text"] = true
-L["Level Title Text"] = true
-L["Mailbox"] = true
-L["Name Text"] = true
-L["Quality Color"] = true
-L["Resting Indicator"] = true
-L["Scrapping Machine"] = true
-L["Settings for different font strings"] = true
-L["Setup Chat"] = true
-L["Short Display"] = true
-L["Short Labels"] = true
-L["Tags"] = true
-L["Title Text"] = true
-L["Toggle"] = true
-L["Use Bags Setting"] = true
-L["Value Font"] = true
+L["[ABBR] Normal Scaling Party"] = "NSP"
+L["[ABBR] Officer"] = "O"
+L["[ABBR] Operation: Floodgate"] = "FLOOD"
+L["[ABBR] Operation: Mechagon - Workshop"] = "WORK"
+L["[ABBR] Party"] = "P"
+L["[ABBR] Party Leader"] = "PL"
+L["[ABBR] Path of Ascension"] = "PoA"
+L["[ABBR] Priory of the Sacred Flame"] = "PSF"
+L["[ABBR] Quest"] = "Quest"
+L["[ABBR] Raid"] = "R"
+L["[ABBR] Raid Finder"] = "RF"
+L["[ABBR] Raid Leader"] = "RL"
+L["[ABBR] Raid Warning"] = "RW"
+L["[ABBR] Roll"] = "RL"
+L["[ABBR] Say"] = "S"
+L["[ABBR] Scenario"] = "Scen"
+L["[ABBR] Shadowlands"] = "SL"
+L["[ABBR] Shoulders"] = "Schultern"
+L["[ABBR] Story"] = "Story"
+L["[ABBR] Tazavesh: So'leah's Gambit"] = "GMBT"
+L["[ABBR] Tazavesh: Streets of Wonder"] = "STRT"
+L["[ABBR] Teeming Island"] = "Teeming"
+L["[ABBR] The Dawnbreaker"] = "DAWN"
+L["[ABBR] The MOTHERLODE!!"] = "ML"
+L["[ABBR] The Rookery"] = "ROOK"
+L["[ABBR] The Stonevault"] = "SV"
+L["[ABBR] The War Within"] = "TWW"
+L["[ABBR] The War Within Keystone Hero: Season One"] = "S1 Schlüsselsteinheld"
+L["[ABBR] The War Within Keystone Hero: Season Three"] = "S3 Schlüsselsteinheld"
+L["[ABBR] The War Within Keystone Hero: Season Two"] = "S2 Schlüsselsteinheld"
+L["[ABBR] The War Within Keystone Legend: Season Three"] = "S3 Schlüsselsteinlegende"
+L["[ABBR] The War Within Keystone Master: Season One"] = "S1 Schlüsselsteinmeister"
+L["[ABBR] The War Within Keystone Master: Season Three"] = "S3 Schlüsselsteinmeister"
+L["[ABBR] The War Within Keystone Master: Season Two"] = "S2 Schlüsselsteinmeister"
+L["[ABBR] Theater of Pain"] = "TOP"
+L["[ABBR] Timewalking"] = "TW"
+L["[ABBR] Torghast"] = "Torghast"
+L["[ABBR] Trinket"] = "Schmuckstück"
+L["[ABBR] Turn In"] = "TURNIN"
+L["[ABBR] Visions of N'Zoth"] = "Visions"
+L["[ABBR] Waist"] = "Gürtel"
+L["[ABBR] Warfronts"] = "WF"
+L["[ABBR] Whisper"] = "Whispers"
+L["[ABBR] MER Emote"] = "ME"
+L["[ABBR] World"] = "W"
+L["[ABBR] World Boss"] = "WB"
+L["[ABBR] Wrist"] = "Handgelenk"
+L["[ABBR] Yell"] = "S"

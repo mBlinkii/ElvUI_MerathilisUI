@@ -7,7 +7,7 @@ function module:LoadCappingProfile()
 
 	_G.CappingSettings.profiles[profileName] = {
 		["outline"] = "OUTLINE",
-		["font"] = "- Expressway",
+		["font"] = "MER_Expressway",
 		["lock"] = true,
 		["spacing"] = 2,
 		["barTexture"] = "ElvUI Norm1",
@@ -34,9 +34,6 @@ function module:ApplyCappingProfile()
 	end
 
 	Splash:Wrap("Applying Capping Profile ...", function()
-		local db = _G.CappingSettings
-		local profileName = I.ProfileNames.Default
-
 		self:LoadCappingProfile()
 
 		E:UpdateMedia()
